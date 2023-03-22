@@ -1,0 +1,160 @@
+/*Navigation bar*/
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-weight: bold;
+}
+
+.nav-items {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font: size 5px;
+    font-family: "Montserrat";
+}
+
+body {
+    font-family: "Montserrat";
+}
+
+#title {
+    background-color: #f7304e;
+    color: white;
+}
+
+.container {
+    padding: 3% 15%;
+}
+
+h1 {
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
+.col-lg-6 {
+    padding-top: 6%;
+}
+
+/*buttons */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.img2 {
+    padding-top: 1%;
+    padding-bottom: 19%;
+}
+
+/*Title image */
+.title-image {
+    width: 22%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+/*features*/
+#features {
+    padding: 10% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.icon {
+    color: #ff9789;
+}
+
+.icon:hover {
+    color: #ee270d;
+}
+
+/*Testimonials*/
+#testimonials {
+
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+h2,
+h3 {
+    line-height: 1.5;
+    font-weight: bolder;
+}
+
+.testimonial-image {
+    width: 25%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/*press*/
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item {
+    padding: 7% 18%;
+}
+
+/*Pricing Section */
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+@media (max-width:992px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        width: 50%;
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+#cta {
+    background-color: #f7304e;
+    text-align: center;
+    padding: 5% 2% 10% 2%;
+}
+
+.last {
+    line-height: 1.5;
+    font-weight: bolder;
+    color: #fff;
+    text-align: center;
+}
+
+#footer {
+    text-align: center;
+    background-color: #fff;
+    padding: 5% 5%;
+}
+
+.fa {
+    padding-left: 10px;
+}
